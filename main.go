@@ -1,11 +1,14 @@
 package main
 
-// import "fmt"
+import "fmt"
 
 func main() {
 	// fmt.Println("Hello World!")
 	Greeting()
 	advanceGreeting("Dipansu")
+	fmt.Println(add(5, 9))
+	q, r := divide(45, 9)
+	fmt.Printf("Quotient : %d, Remainder : %d", q, r)
 
 }
 
